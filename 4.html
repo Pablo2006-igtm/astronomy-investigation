@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigação Astronômica</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #2a2a72, #009fff);
+            color: #fff;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 10px 0;
+            border-bottom: #fff 3px solid;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            background: rgba(0, 0, 0, 0.8);
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding-top: 60px; /* Offset for fixed header */
+        }
+        .content {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            color: #333;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .content:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+        .content h2 {
+            color: #222;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .content p, .content ul {
+            line-height: 1.8;
+        }
+        video, audio, iframe {
+            display: block;
+            margin-top: 10px;
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 10px;
+            border: 5px solid #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Investigação Astronômica</h1>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#introducao">Introdução</a>
+        <a href="#fenomenos">Fenômenos</a>
+        <a href="#descobertas">Descobertas</a>
+        <a href="#ferramentas">Ferramentas</a>
+        <a href="#impacto">Impacto</a>
+    </nav>
+
+    <div class="container">
+        <div class="content" id="introducao">
+            <h2>Introdução ao Artigo</h2>
+            <p>A astronomia é a ciência que estuda os corpos celestes e seus movimentos, estruturas, origens e evoluções. Desde os primeiros observadores do céu até a astronomia moderna, essa ciência tem se desenvolvido de forma significativa. Na antiguidade, a astronomia era baseada na observação direta dos céus, como o uso de observações astronômicas pelos egípcios antigos para criar calendários. Com o avanço da tecnologia, a astronomia moderna utiliza telescópios avançados e satélites para explorar galáxias e corpos celestes distantes, ampliando nossa compreensão do universo.</p>
+
+            <img src="https://cdn.mos.cms.futurecdn.net/TarH6Nkf4tBo99QFQKRdLf-1024-80.jpg.webp" alt="Imagem do Universo">
+
+            <h2 id="fenomenos">Principais Fenômenos Astronômicos</h2>
+            <ul>
+                <li><strong>Estrelas e Planetas:</strong> Estrelas são corpos celestes que emitem luz, como o Sol, enquanto planetas orbitam estrelas. A Terra é um planeta que orbita o Sol.</li>
+                <li><strong>Buracos Negros:</strong> Buracos negros são objetos com uma gravidade tão intensa que nem a luz consegue escapar.</li>
+                <li><strong>Supernovas:</strong> Supernovas são explosões violentas que ocorrem quando uma estrela morre, liberando uma grande quantidade de energia e material.</li>
+            </ul>
+
+            <img src="https://cdn.mos.cms.futurecdn.net/MEMQv28Hu6vfvHMVbNVmKn-1200-80.jpg" alt="Imagem do Espaço Profundo">
+
+            <h2 id="descobertas">Descobertas Importantes na Astronomia Moderna</h2>
+            <ul>
+                <li><strong>Expansão do Universo:</strong> Observações com o telescópio Hubble mostraram que o universo está se expandindo, o que apoia a teoria do Big Bang.</li>
+                <li><strong>Descoberta de Exoplanetas:</strong> Com a tecnologia de telescópios avançados, os cientistas encontraram milhares de exoplanetas, alguns dos quais podem ter condições para a vida.</li>
+            </ul>
+
+            <img src="https://cdn.mos.cms.futurecdn.net/MWFqrBHwzZHhpfRNU3uLBG-1200-80.jpg" alt="Imagem de Galáxias">
+
+            <h2 id="ferramentas">Ferramentas de Pesquisa Astronômica</h2>
+            <p>Os astrônomos utilizam diversos tipos de telescópios (como telescópios ópticos e de rádio) para observar o universo. Com os avanços tecnológicos, sondas espaciais e satélites também se tornaram ferramentas importantes para estudar o cosmos, capturando dados de galáxias e corpos celestes distantes.</p>
+
+            <h2 id="impacto">Impacto da Astronomia na Humanidade</h2>
+            <p>A astronomia não apenas aprofundou nossa compreensão do universo, mas também impulsionou o desenvolvimento tecnológico. Por exemplo, a tecnologia de satélites, originada da pesquisa astronômica, é amplamente utilizada em comunicações e navegação. Além disso, a pesquisa astronômica também promove a educação científica e o interesse público pela ciência.</p>
+        </div>
+
+        <div class="content">
+            <h2>Áudio</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nGnX6GkrOgk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="content">
+            <h2>Vídeo</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ztVV54sPOns" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
